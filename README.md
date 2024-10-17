@@ -2,9 +2,9 @@
 
 Submitted by: **Patrick Lisiecki**
 
-About this web app: **An car personalizer that allows users to create a custom car and view, edit, or delete ones they have already created.**
+About this web app: **A car personalizer that allows users to create a custom car and view, edit, or delete ones they have already created.**
 
-Time spent: **5** hours
+Time spent: **6** hours
 
 ## Required Features
 
@@ -22,13 +22,9 @@ The following **required** functionality is completed:
 - [X] **Users can edit or delete a submitted `CustomCar` from the list view of submitted `CustomCar`**
 - [X] **Users can update or delete `CustomCar` that have been created from the detail page**
 
-The following **optional** features are implemented:
-
-- [ ] Selecting particular options prevents incompatible options from being selected even before form submission
-
 ## Video Walkthrough
 
-Here's a walkthrough of implemented required features:
+Here's a walkthrough of the implemented required features:
 
 <img src='https://github.com/PatrickLisiecki/bolt-bucket/blob/main/demo.gif' title='Video Walkthrough' alt='Video Walkthrough' />
 
@@ -36,7 +32,7 @@ GIF created with GeForce Experience and CloudConvert.
 
 ## Notes
 
-I had some issues with returning the correct responses from API which would cause errors on the client side.
+I had some issues with returning the correct responses from my API which would cause errors on the client side.
 
 ## License
 
