@@ -65,7 +65,7 @@ const createCarTableQuery = `
     CREATE TABLE IF NOT EXISTS cars (
         id SERIAL PRIMARY KEY,
         name VARCHAR(255) NOT NULL,
-        isConvertible BOOLEAN NOT NULL,
+        isConvertible BOOLEAN,
         exteriorId INT REFERENCES exteriors(id),
         roofId INT REFERENCES roofs(id),
         wheelsId INT REFERENCES wheels(id),

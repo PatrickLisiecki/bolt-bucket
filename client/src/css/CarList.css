@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.car-list-container {
+    font-family: "Rubik", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.car-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.car {
+    border-radius: 10px;
+    background-color: rgba(50, 50, 50, 0.8);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.car-title {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.car-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.car-item {
+    text-align: center;
+}
+
+.car-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.car-text {
+    color: white;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.car-price {
+    font-size: 18px;
+    color: #28a745;
+    font-weight: bold;
+    margin-top: 10px;
+}

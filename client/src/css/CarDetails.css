@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.car-detail-container {
+    font-family: "Rubik", sans-serif;
+    background-color: rgba(50, 50, 50, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.car-detail-title {
+    font-family: "Rubik", sans-serif;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.car-detail-item {
+    font-family: "Rubik", sans-serif;
+    margin: 10px 0;
+}
+
+.car-detail-image {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.car-image {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 10px;
+}
+
+.car-detail-buttons {
+    margin-top: 20px;
+}
+
+.update-btn,
+.delete-btn {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.update-btn {
+    background-color: #4caf50;
+    color: white;
+}
+
+.delete-btn {
+    background-color: #f44336;
+    color: white;
+}
